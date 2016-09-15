@@ -2,32 +2,63 @@
 @import "normalize";
 
 .navbar {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
   text-align: center;
   margin-bottom: 2em;
   background-color: white;;
   text-decoration: none;
   border-bottom: solid;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
 }
 
 
 body {
   text-align: center;
-  padding-top: 10em;
+  padding-top: 3em;
   .profile-pic {
-    max-height: 12em;
+    max-height: 14em;
+    margin-top: 1em;
   }
-  .sections {
-    padding: 20em;
+  // .sections {
+  //   margin-bottom: 30em;
+  // }
+  // .tippy-top-buffer {
+  //   margin-top: 3em;
+  // }
+  .top-buffer {
+    margin-top: 20em;
+  }
+  .bottom-buffer {
+    margin-top: 2em;
+  }
+  .name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    margin-top: 2.5em;
+  }
+  .tagline {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .section-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5em;
+    margin-top: 2em;
+  }
+  .quattro {
+    font-family: 'Quattrocento', serif;
   }
   .descriptions {
-    background-color: #DDDDDD;
-    border-color: #AAAAAA;
-    border-style: solid;
-    border-radius: 15px;
+    // background-color: #DDDDDD;
+    // border-color: #AAAAAA;
+    // border-style: solid;
+    // border-radius: 15px;
     padding: 1em;
+    font-family: 'Quattrocento', serif;
+  }
+  .fa {
+    margin-bottom: 1.5em;
   }
   .assembly-point{
     font-family: 'Bitter', serif;
@@ -43,8 +74,12 @@ body {
     font-size: 3em;
     border-radius: 4px;
   }
+  .spokeup_img {
+    max-height: 10em;
+  }
   .contact-links {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 }
