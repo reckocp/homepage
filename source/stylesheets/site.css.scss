@@ -10,6 +10,13 @@
   border-width: 1px;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
+  .navbar-nav {
+    display: inline-block;
+    position: relative;
+  }
+  .navbar-nav>li {
+    display: inline-block;
+  }
   .navbar-nav>li>a {
     text-decoration: none;
     color: #333333;
@@ -21,8 +28,11 @@
     color: yellow;
   }
 }
-
-
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+  }
+}
 
 body {
   text-align: center;
