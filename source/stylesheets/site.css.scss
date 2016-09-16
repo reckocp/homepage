@@ -6,8 +6,8 @@
   margin-bottom: 2em;
   background-color: white;;
   text-decoration: none;
-  border-bottom: solid;
-  border-width: 1px;
+  // border-bottom: solid;
+  // border-width: 1px;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
   .navbar-nav {
@@ -104,10 +104,13 @@ body {
   .spokeup_img {
     max-height: 10em;
   }
-  .contact-links {
-    padding-top: 1em;
-    padding-left: 4em;
-    padding-right: 4em;
+  .contact {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  .contact>li {
+    display: inline-block;
+    position: relative;
   }
   .fa {
     color: black;
